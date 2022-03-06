@@ -1,6 +1,14 @@
 # Goldrush_Algorithm_Study
 Kusitms 25th Algorithm Study
 
+### 스터디명
+
+GoldRush
+
+### 스터디목표
+
+백준 티어 업 (실버 -> 골드)
+
 ### 스터디원
 
 전우정, 조선희, 홍희수, 안나경
@@ -28,7 +36,8 @@ ex) 브루트포스/안녕/kusitms.py
 
 ### PR 제목
 
-제목 : `[문제유형] 문제명`
+제목 : `[레벨] 문제유형 - 문제명`
+ex. [골드 2] 브루트포스 - IQ Test
 
 ### PR 본문
 
@@ -44,7 +53,7 @@ ex) 브루트포스/안녕/kusitms.py
 
 | 주차  | 유형 | 문제 1 | 문제 2 | 문제 3 |
 | :---: | :--: | :---: | :----: | :----: |
-| 1주차 | 브루트포스 | [IQ Test](https://www.acmicpc.net/problem/1111) | [안녕](https://www.acmicpc.net/problem/1535) | [복권](https://www.acmicpc.net/problem/1359) |
+| 1주차 | 브루트포스 | [IQ Test(골드 2)](https://www.acmicpc.net/problem/1111) | [안녕(실버 2)](https://www.acmicpc.net/problem/1535) | [복권(실버 4)](https://www.acmicpc.net/problem/1359) |
 | 2주차 |      |       |       |       |
 | 3주차 |      |       |       |       |
 | 4주차 |      |       |       |       |
