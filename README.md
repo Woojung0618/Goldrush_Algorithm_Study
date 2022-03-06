@@ -32,20 +32,6 @@ GoldRush
 
 ex) 브루트포스/안녕/kusitms.py
 
-## PR 양식
-
-### PR 제목
-
-제목 : `[레벨] 문제유형 - 문제명`
-ex. [골드 2] 브루트포스 - IQ Test
-
-### PR 본문
-
-1. 문제에서 사용한 자료구조 및 알고리즘
-2. 대략적인 코드 설명
-
-📌 [PR과 관련하여 참고하면 좋을 사이트](https://github.com/CodeTest-StudyGroup/Code-Test-Study/wiki/%F0%9F%A7%B2-Pull-Request-&-Commit-Message-%EA%B7%9C%EC%B9%99)
-
 
 ## 주차별 진행 상황
 
