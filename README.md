@@ -6,7 +6,6 @@ Kusitms 25th Algorithm Study
 전우정, 조선희, 홍희수, 안나경
 
 ### 프로젝트 진행 방법
-📃[회의록](https://docs.google.com/document/d/1t9rlRxRS-0eBUO4R9krUoGP0py9L_dBEpL7fk9917Sc/edit)
 
 1. 매주 [백준](https://www.acmicpc.net/)에서
 (실버 2문제, 골드 1문제)를 정해 스터디원과 공유한다.
@@ -15,6 +14,8 @@ Kusitms 25th Algorithm Study
 2. 자신의 풀이를 폴더 구조를 지켜서 작성하고, pull & request를 한다.
 
 3. 매주 토요일 10시, 줌을 통해 번갈아가며 문제 풀이를 설명하고, 다른 사람들이 리뷰를 진행한다.
+
+4. 설명할 문제는 매주 사다리타기로 정한다. 골드 2명, 실버 각각 1명
 
 
 ## 폴더 구조
