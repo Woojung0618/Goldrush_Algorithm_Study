@@ -2,7 +2,6 @@
 # 최대 기쁨을 출력하는 프로그램 
 
 # 0,1 배낭문제 알고리즘으로 이전 최대치와 이전 값을 빼고 현재 값을 넣은 것과 비교하여 더 가치가 높은 것을 넣어주자!
-# https://dreamtreeits.tistory.com/m/56
 from sys import stdin
 
 N = int(stdin.readline())
