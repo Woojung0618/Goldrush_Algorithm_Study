@@ -22,5 +22,4 @@ for a,b in hh_list:
         break
 
 print(happy_size)
-print()
 

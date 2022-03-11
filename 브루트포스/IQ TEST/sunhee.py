@@ -34,4 +34,3 @@ else:   #a,b 구하기
                 break
         else:
             print(int(nlist[-1]*a+b))
-print()
