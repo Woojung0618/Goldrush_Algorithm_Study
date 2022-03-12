@@ -4,6 +4,7 @@ n=int(sys.stdin.readline())
 health=list(map(int,sys.stdin.readline().split()))  #손님별 체력
 happy=list(map(int,sys.stdin.readline().split()))   #손님별 행복
 hh_list=[]
+
 for i in range(n):
     a=health[i]
     b=happy[i]
