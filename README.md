@@ -37,8 +37,6 @@ GoldRush
 ex) 브루트포스/안녕/kusitms.py
 
 
-<<<<<<< HEAD
-=======
 ## PR 양식
 
 ### PR 제목
