@@ -57,7 +57,7 @@ EX. `[골드 2] 브루트포스 - IQ Test`
 | 주차  | 유형 | 문제 1 | 문제 2 | 문제 3 | 문제 4 |
 | :---: | :--: | :---: | :----: | :----: | :----: |
 | 1주차 | 브루트포스 | [IQ Test(골드 2)](https://www.acmicpc.net/problem/1111) | [안녕(실버 2)](https://www.acmicpc.net/problem/1535) | [복권(실버 4)](https://www.acmicpc.net/problem/1359) |
-| 2주차 | [컬러볼(골드 1)](https://www.acmicpc.net/problem/10800) | [신입사원(실버1)](https://www.acmicpc.net/problem/1946) | [주몽(실버 4)](https://www.acmicpc.net/problem/1940) | [일곱난쟁이(브론즈2)](https://www.acmicpc.net/problem/2309) |
+| 2주차 | 정렬 | [컬러볼(골드 1)](https://www.acmicpc.net/problem/10800) | [신입사원(실버1)](https://www.acmicpc.net/problem/1946) | [주몽(실버 4)](https://www.acmicpc.net/problem/1940) | [일곱난쟁이(브론즈2)](https://www.acmicpc.net/problem/2309) |
 | 3주차 |      |       |       |       |       |
 | 4주차 |      |       |       |       |       |
 | 5주차 |      |       |       |       |       |
