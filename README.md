@@ -16,8 +16,6 @@ GoldRush
 ### 프로젝트 진행 방법
 
 1. 매주 [백준](https://www.acmicpc.net/)에서
-(실버 2문제, 골드 1문제)를 정해 스터디원과 공유한다.
-=======
 (브론즈 1문제, 실버 2문제, 골드 1문제)를 정해 스터디원과 공유한다.
 백준 레벨은 [solved.ac](https://solved.ac/problems/tags) 참고
 
@@ -25,8 +23,6 @@ GoldRush
 
 3. 매주 토요일 10시, 줌을 통해 번갈아가며 문제 풀이를 설명하고, 다른 사람들이 리뷰를 진행한다.
 
-4. 설명할 문제는 매주 사다리타기로 정한다. 골드 2명, 실버 각각 1명
-=======
 4. 설명할 문제는 매주 사다리타기로 정한다. 골드 2명, 실버 각각 1명, 브론즈 1명
 
 
@@ -61,7 +57,7 @@ EX. `[골드 2] 브루트포스 - IQ Test`
 | :---: | :--: | :---: | :----: | :----: | :----: |
 | 1주차 | 브루트포스 | [IQ Test(골드 2)](https://www.acmicpc.net/problem/1111) | [안녕(실버 2)](https://www.acmicpc.net/problem/1535) | [복권(실버 4)](https://www.acmicpc.net/problem/1359) |
 | 2주차 | 정렬 | [컬러볼(골드 1)](https://www.acmicpc.net/problem/10800) | [신입사원(실버1)](https://www.acmicpc.net/problem/1946) | [주몽(실버 4)](https://www.acmicpc.net/problem/1940) | [일곱난쟁이(브론즈2)](https://www.acmicpc.net/problem/2309) |
-| 3주차 | 스택 |       |       |       |       |
+| 3주차 | 스택 | [탑(골드 5)](https://www.acmicpc.net/problem/2493) | [외계인의 기타 연주(실버 1)](https://www.acmicpc.net/problem/2841) | [괄호의 값(실버 2)](https://www.acmicpc.net/problem/2504) | [단어순서 뒤집기(브론즈 1)](https://www.acmicpc.net/problem/12605) |
 | 4주차 |  DFS/BFS |       |       |       |       |
 | 5주차 | DP/동적계획법 |       |       |       |       |
 | 6주차 | 이분탐색/파라메트릭 탐색 |       |       |       |       |
