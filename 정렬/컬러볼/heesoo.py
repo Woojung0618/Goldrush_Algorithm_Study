@@ -1,33 +1,49 @@
 # 크기가 작고 색이 다른 공을 사로잡자-> 그 공의 크기만큼 점수를 얻음
-# 크기를 기준으로 오름차순 정리 하고
-# 현재까지의 모든 공의 크기 합에서 색깔이 같거나 크기가 같은 공의 무게를 빼준다.
+# 오름차순 정리 하고
+# 현재 공보다 작은 사이즈를 총 누적, 컬러 별 사이즈 누적
+# 총 사이즈 - 컬러 누적
 
 # 중복제거를 하는 이유?
 
 
 import sys
 
-n = int(input())
-
-data = []
-
-total = 0
-weight = set()
-
-
-for _ in range(n):
-    a, b = map(int, sys.stdin.readline().split())
-    data.append((a, b))
-    total += b
-    weight.add(b)
-weight = sorted(weight)
-
-res = [0] * (len(weight) + 1)
-
-total_pf = [0] * (len(weight) + 1)
-
-
-j = 0
+n = int(input(''))
+ball_list = []
 for i in range(n):
-    while sort_data[i][1] < sort_data[j][0]:
-        weights[]
+    c, s = map(int, sys.stdin.readline().rstrip().split(' '))
+    ball_list.append([i, s, c])
+
+# size, color로 오름차순 정렬
+ball_list.sort(key=lambda x:(x[1], x[2]))
+
+color_list = [0] * 200001
+player_list = [0] * n
+
+sum_ = 0
+i, j = 0, 0
+
+# 누적 합
+while i < n:
+
+    a_ball = ball_list[i]
+    b_ball = ball_list[j]
+
+    # B >= A 일 때 종료
+    while b_ball[1] < a_ball[1]:
+
+        # 총 사이즈 누적
+        sum_ += b_ball[1]
+        # 컬러 별 사이즈 누적
+        color_list[b_ball[2]] += b_ball[1]
+
+        j += 1
+        b_ball = ball_list[j]
+
+    player_list[a_ball[0]] = sum_ - color_list[a_ball[2]]
+    i += 1
+
+result = []
+for i in range(n):
+    result.append(str(player_list[i]))
+print('\n'.join(result))
