@@ -1,8 +1,12 @@
 # 백준 1111번
-# 주어진 수열을 통해 (a, b)를 추측하고 이를 바탕으로 생성한 수열이 주어진 수열과 일치하는지
 
 n = int(input())
 arr = list(map(int, input().split()))
+
+#n2 = a x n1 + b
+#n3 = a x n2 + b
+#a = (n3 - n2) / (n2 - n1)
+#b = n2 - a x n1
 
 def find_rule(num_list):
   a = int((num_list[2] - num_list[1]) / (num_list[1] - num_list[0]))
