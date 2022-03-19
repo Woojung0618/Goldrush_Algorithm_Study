@@ -53,6 +53,10 @@ EX. `[골드 2] 브루트포스 - IQ Test`
 📌 [PR과 관련하여 참고하면 좋을 사이트](https://github.com/CodeTest-StudyGroup/Code-Test-Study/wiki/%F0%9F%A7%B2-Pull-Request-&-Commit-Message-%EA%B7%9C%EC%B9%99)
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> bc279fe6e359a6330e7d50a6c036a3c5c8fb0886
 ## 주차별 진행 상황
 
 문제 선정 순서: 전우정 -> 조선희 -> 홍희수 -> 안나경
