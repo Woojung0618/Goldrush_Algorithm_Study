@@ -2,6 +2,7 @@
 #2. 숫자가 나올 수 있는 리스트라면 a,b 구하기
 #3. (앞 수 * a + b)=뒷 수 => nlist[1]=nlist[0]*a+b
 import sys
+
 n=int(sys.stdin.readline())
 nlist=list(map(int,sys.stdin.readline().split()))
 
