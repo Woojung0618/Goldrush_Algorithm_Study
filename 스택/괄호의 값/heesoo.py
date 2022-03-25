@@ -1,12 +1,15 @@
 # 4개의 기호 ( ) * 2 [ ] * 3 -> 올바른 괄호열
 # X가 올바른 괄호열 -> (X) [X]
 # X와 Y 모두 올바른 괄호열 -> 이들을 결합한 XY도 올바른 괄호열, (X) + (Y)
+
+# 왜 stack_list가 아닌 data에서 비교할까??
 import sys
 
 stack_list = []
 result = 0
 temp = 1
 data = list(input())
+
 
 for i in range(len(data)):
     if (data[i] == "("):
