@@ -8,11 +8,11 @@ for s in range(len(string)):
 
     elif string[s] == ')':
         tmp = 0
-        while len(stack) != 0:
+        while stack:
             top = stack.pop()
             if top == '[':
                 print(0)
-                exit(0)
+                exit()
             elif top == '(':
                 if tmp == 0:
                     stack.append(2)
@@ -20,15 +20,15 @@ for s in range(len(string)):
                     stack.append(2 * tmp)
                 break
             else:
-                tmp += int(top)
+                tmp += top
 
     elif string[s] == ']':
         tmp = 0
-        while len(stack) != 0:
+        while stack:
             top = stack.pop()
             if top == '(':
                 print(0)
-                exit(0)
+                exit()
             elif top == '[':
                 if tmp == 0:
                     stack.append(3)
@@ -36,14 +36,14 @@ for s in range(len(string)):
                     stack.append(3 * tmp)
                 break
             else:
-                tmp += int(top)
+                tmp += top
 
 # print(stack)
 answer = 0
 for i in stack:
-    if i == '(' or i == '[':
+    if i == '(' or i == '[' or i == ')' or i == ']':
         print(0)
-        exit(0)
+        exit()
     else:
         answer += i
 print(answer)
