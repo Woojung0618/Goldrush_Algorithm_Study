@@ -3,7 +3,7 @@
 
 # 각 줄에 대해 스택 사용
 
-
+# [[0], [1], [2], [3]]
 import sys
 
 n, p = map(int, sys.stdin.readline().split())
@@ -16,17 +16,20 @@ for i in range(n):
     if data[line] == 0:
         data[line].append(number)
         result += 1
+        print("line:" + line, "number:" + number)
     # 스택이 비어있지 않다면
     else:
         # 프렛의 번호가 같은 줄에 있는 것보다 작을 때
         while data[line] and number < data[line][-1]:
             data[line].pop()
             result += 1
+            print("line:" + line, "number:" + number)
 
         # 프렛의 번호가 같은 줄에 있는 것보다 클 때
-        if data[line] != 0 or number > data[line][-1]:
+        if not data[line] or number > data[line][-1]:
             data[line].append(p)
             result += 1
+            print("line:" + line, "number:" + number)
 
         # 프렛의 번호가 같을 때
         else: 
