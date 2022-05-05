@@ -6,7 +6,7 @@ n_data = list(map(int, sys.stdin.readline().split()))
 start = max(n_data)
 end = sum(n_data)
 
-res = 10**9
+#res = 10**9
 while(start <= end):
     mid = (start + end) // 2
     count = 1
