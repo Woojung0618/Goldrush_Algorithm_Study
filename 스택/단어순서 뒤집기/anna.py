@@ -1,4 +1,5 @@
 #12605번 단어순서 뒤집기
+
 import random
 
 num = int(input())
