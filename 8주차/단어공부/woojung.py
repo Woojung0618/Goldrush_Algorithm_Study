@@ -10,7 +10,6 @@ for w in word:
 max_value = max(dict.values())
 count = 0
 answer = ''
-print(dict.values())
 
 for d in dict:
     if dict[d] == max_value:
