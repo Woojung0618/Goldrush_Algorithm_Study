@@ -1,27 +1,28 @@
 import sys
-S = set([])
-print(S)
-m = int(input())
-for _ in range(m):
-    cmd = sys.stdin.readline().rstrip().split()
-    if cmd[0] == 'add':
-        if cmd[1] not in S:
-            S.add(cmd[1])
-    elif cmd[0] == 'remove':
-        if cmd[1] in S:
-            S.remove(cmd[1])
-    elif cmd[0] == 'check':
-        if cmd[1] in S:
-            print(1)
-        else:
-            print(0)
-    elif cmd[0] == 'toggle':
-        if cmd[1] in S:
-            S.remove(cmd[1])
-        else:
-            S.add(cmd[1])
-    elif cmd[0] == 'all':
-        S = set([i + 1 for i in range(20)])
-    else:  # empty
-        S = []
 
+S = set()
+n = int(sys.stdin.readline())
+for _ in range(n):
+    m = sys.stdin.readline().split()
+
+    if len(m) == 1:
+        if m[0] == 'all':
+            S = set([i for i in range(1,21)])
+        elif m[0] == 'empty':
+            S = set()
+    else:
+        a, b = m[0], int(m[1])
+        if a == 'add':
+            S.add(b)
+        elif a == 'remove':
+            S.discard(b)
+        elif a == 'check':
+            if b in S: 
+                print(1)
+            else: 
+                print(0)
+        elif a == 'toggle':
+            if b in S:
+                S.discard(b)
+            else:
+                S.add(b)
