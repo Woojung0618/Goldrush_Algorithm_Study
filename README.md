@@ -61,5 +61,5 @@ EX. `[골드 2] 브루트포스 - IQ Test`
 | 4주차 |  DFS/BFS | [이모티콘(골드 5)](https://www.acmicpc.net/problem/14226) | [DFS와 BFS (실버1)](https://www.acmicpc.net/problem/1260) | [미로 탐색(실버 1)](https://www.acmicpc.net/problem/2178) | [단지번호붙이기(실버 1)](https://www.acmicpc.net/problem/2667) |
 | 5주차 | DP/동적계획법 | [이모티콘(골드 5)](https://www.acmicpc.net/problem/14226) | [RGB거리(실버1)](https://www.acmicpc.net/problem/1149)  |  [계단 수(브론즈1)](https://www.acmicpc.net/problem/1562) | [피보나치함수(실버3)(선택)](https://www.acmicpc.net/problem/1003) |
 | 6주차 | 이분탐색/파라메트릭 탐색 | [두 배열의합(골드3)](https://www.acmicpc.net/problem/2143) | [암기왕(실버4)](https://www.acmicpc.net/problem/2776) | [기타레슨(실버1)](https://www.acmicpc.net/problem/2343) | [랜선 자르기(실버3)](https://www.acmicpc.net/problem/1654) |
-| 7주차 | 큐/덱 |       |       |       |       |
-| 8주차 | set/map/dictionary |       |       |       |       |
+| 7주차 | 큐/덱 |  [AC(골드5)](https://www.acmicpc.net/problem/5430)     |  [요세푸스 문제0(실버4)](https://www.acmicpc.net/problem/11866)  |   [큐(실버4)](https://www.acmicpc.net/problem/10845)  |   [덱(실버4)](https://www.acmicpc.net/problem/10866)  |
+| 8주차 | set/map/dictionary |  [문명(골드3)](https://www.acmicpc.net/problem/14868) | [문자열집합(실버3)](https://www.acmicpc.net/problem/14425) | [집합(실버5)](https://www.acmicpc.net/problem/11723) | [단어공부(브론즈1)](https://www.acmicpc.net/problem/1157) |
